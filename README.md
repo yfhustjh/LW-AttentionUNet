@@ -1,22 +1,18 @@
-\# LW-AttentionUNet
-
 LightWeight Attention UNet for 3D volumetric medical image segmentation
 
-
-
-\## Overview
+Overview
 
 This is a lightweight 3D Attention UNet variant.
 
-\- Encoder optional: Depthwise Separable Convolution (DSConv)
+Encoder optional: Depthwise Separable Convolution (DSConv)
 
-\- Decoder optional: standard 3D convolution / DSConv
+Decoder optional: standard 3D convolution / DSConv
 
-\- Attention Gate on skip connections
+Attention Gate on skip connections
 
-\- Flexible channel scaling via `feature\_scale`
+Flexible channel scaling via `feature\_scale`
 
-\- Support 3D volumetric input (e.g., BraTS, multi-modal MRI)
+Support 3D volumetric input (e.g., BraTS, multi-modal MRI)
 
 
 
