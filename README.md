@@ -10,7 +10,7 @@ Decoder optional: standard 3D convolution / DSConv
 
 Attention Gate on skip connections
 
-Flexible channel scaling via `feature\_scale`
+Flexible channel scaling via `feature_scale`
 
 Support 3D volumetric input (e.g., BraTS, multi-modal MRI)
 
